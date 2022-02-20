@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Shanu Agrawal" />
+    <meta name="keywords" content="HTML,CSS,JS" />
+    <meta name="description" content="The result page of javascript quiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="result.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <a href="/landing-page/landing.html"><div class="logo-box col-2">
+        <div class="brand-logo">
+            <img src="/images/brand-logo.svg" alt="">
+        </div>  
+      <h1 class="brand-name">Fun<span class="brand-name-tag">Play</span></h1>
+      </div></a>
+
+  
+       <!-- ---------------------------------------------------------------------------------- -->
+    <div class="main-row col-12">
+       <div class="result-page col-8">
+        <div class="result-img-box col-6">
+            <img src="/images/result-celebration.svg" alt="">
+        </div>
+        <div class="result-details-box col-6">
+           <div class="result-score-box">
+               <h2>Your Final Score</h2>
+               <div class="score">
+               <h1>8 out of 10 </h1>
+            </div>
+
+           </div>
+           <div class="result-share-box">
+
+            <!-- ---------- -->
+            <div class="rating-box">
+                <p>Rate Your Expierence about Quiz</p>
+                <fieldset class="rating">
+                    <input type="radio" id="star5" name="rating" value="5"/><label for="star5" class="full" title="Awesome"></label>
+					<input type="radio" id="star4.5" name="rating" value="4.5"/><label for="star4.5" class="half"></label>
+					<input type="radio" id="star4" name="rating" value="4"/><label for="star4" class="full"></label>
+					<input type="radio" id="star3.5" name="rating" value="3.5"/><label for="star3.5" class="half"></label>
+					<input type="radio" id="star3" name="rating" value="3"/><label for="star3" class="full"></label>
+					<input type="radio" id="star2.5" name="rating" value="2.5"/><label for="star2.5" class="half"></label>
+					<input type="radio" id="star2" name="rating" value="2"/><label for="star2" class="full"></label>
+					<input type="radio" id="star1.5" name="rating" value="1.5"/><label for="star1.5" class="half"></label>
+					<input type="radio" id="star1" name="rating" value="1"/><label for="star1" class="full"></label>
+					<input type="radio" id="star0.5" name="rating" value="0.5"/><label for="star0.5" class="half"></label>
+            </fieldset>
+            <h4 id="rating-value"></h4>
+          </div>
+            <!-- ------------ -->
+             <p>Share your score with your friends</p>
+            <button>Share</button>
+
+           </div>
+        </div>
+        </div>
+    </div>
+ <script src="result.js"></script>
+</body>
+</html>
