@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+   --money-heist-primary-color: #881337;
+     --light-color: #fff1f2;
+     --answer-background-color: #f0e5e5;
+     --dark-text-color: #0c0c0b;
+    --h1-font-size: 3.4rem;
+    --h2-font-size: 3rem;
+    --p-font-size: 2.3rem;
+}
+:root{
+    --card-tittle-font-size: 2.5rem;
+    --card-heading-font-size: 2.3rem;
+    --card-tag-font-size: 2rem;
+    --card-description-font-size: 2.2rem;
+    --card-price-font-size : 2.3rem;
+    --card-discount-font-size: 1.7rem;
+
+}
