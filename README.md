@@ -1,18 +1,14 @@
 # funplay
 its a fun game of quiz, you can choose category to have quiz or you can play with your friends
  
- # Homepage
-  can select quiz by category
-  link: https://funplay-delta.vercel.app/
+ * [Homepage]( https://funplay-delta.vercel.app/)
+  - can select quiz by category
   
-   # description-page
-   it conatin all the rules regarding quiz
-   link: https://funplay-delta.vercel.app/money-heist/description/description.html
+  * [description-page](https://funplay-delta.vercel.app/money-heist/description/description.html)
+    - it conatin all the rules regarding quiz
    
-    # questions-page
-    it include a question and four options to answer.
-    link:https://funplay-delta.vercel.app/money-heist/firstquestion/first.html
+   * [questions-page](https://funplay-delta.vercel.app/money-heist/firstquestion/first.html)
+     - it include a question and four options to answer.
     
-     # result-page
-    it shows the score of your quiz attempted by you
-    link: https://funplay-delta.vercel.app/money-heist/result/result.html
+   * [result-page](https://funplay-delta.vercel.app/money-heist/result/result.html)
+     - it shows the score of your quiz attempted by you
